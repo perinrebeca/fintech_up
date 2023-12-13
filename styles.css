@@ -1,0 +1,90 @@
+html{
+    overflow-y: auto;
+    overflow-x: auto;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Inter:wght@100;200;300;400;500&family=Krona+One&display=swap');
+
+
+body{height: 100%; 
+    display: grid;
+    place-items: center
+    }
+.sessao1{
+    height: 100vb;
+}
+.sessao2{
+    background-color:#4BAF85 ;
+}
+.botao{
+    background-color: #88214C;
+    width: 100%;
+}
+.botao:hover{
+    background-color: #c1326e;
+}
+
+a{margin: 0px;border-radius: 7px;text-decoration: none;color:aliceblue}
+
+/* Customização das frases */
+.frase1{
+    font-size: 1.5em;
+    font-weight: 200;
+    margin-top: 20px;
+    
+}
+.frase2{
+    font-size: 1.5em;
+    text-align:center;
+    font-weight: 200;
+    margin-top: 50px;
+    color: aliceblue;
+
+}
+
+
+
+/* Customização do formulário */
+form{margin-top: 80px
+}
+
+.form-group{
+    position:relative;
+    margin-bottom:1.5rem;
+}
+.form-control{
+    height:2.5rem;
+    font-size: 1rem;
+}
+.form-label{
+    position: absolute;
+    top: 0.5rem;
+    left:1rem;
+    pointer-events: none;
+    transition: 0.3s ease all;
+}
+
+.form-control:focus +.form-label,
+.form-control:not(:placeholder-shown)
+.form-label{
+    top:-1rem;
+    font-size: 0.8rem;
+    color:#ffffff;
+}
+/* Customização do checkbox  */
+.custom-checkbox .form-check-input:checked{
+    background-color:#88214C;
+    
+}
+
+.custom-checkbox .form-check-input{
+    background-color:#79495d;
+}
+.icon{
+    color: #ffffff;
+}
+
+.icon:hover{
+    color: #88214C;
+}
